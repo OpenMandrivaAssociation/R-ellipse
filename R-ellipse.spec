@@ -2,14 +2,13 @@
 %global rlibdir  %{_datadir}/R/library
 
 Name:             R-%{packname}
-Epoch:            1
-Version:          0.3_4
+Version:          0.3_5
 Release:          1
 Summary:          Functions for drawing ellipses and ellipse-like confidence regions
 Group:            Sciences/Mathematics
-License:          This library was written by D. J. Murdoch and E. D. Chow. This software is licensed under the GPL terms. It is free software and comes with ABSOLUTELY NO WARRANTY.
+License:          GPL (>= 2)
 URL:              http://cran.r-project.org/web/packages/%{packname}/index.html
-Source0:          http://cran.r-project.org/src/contrib/Archive/%{packname}/%{packname}_0.3-4.tar.gz
+Source0:          http://cran.r-project.org/src/contrib/%{packname}_0.3-5.tar.gz
 BuildArch:        noarch
 Requires:         R-core
 Requires:         R-graphics R-stats 
