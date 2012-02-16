@@ -2,6 +2,7 @@
 %global rlibdir  %{_datadir}/R/library
 
 Name:             R-%{packname}
+Epoch:            1
 Version:          0.3_5
 Release:          1
 Summary:          Functions for drawing ellipses and ellipse-like confidence regions
