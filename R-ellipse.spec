@@ -11,9 +11,9 @@ License:          GPL (>= 2)
 URL:              http://cran.r-project.org/web/packages/%{packname}/index.html
 Source0:          http://cran.r-project.org/src/contrib/%{packname}_0.3-5.tar.gz
 BuildArch:        noarch
-Requires:         R-core
-Requires:         R-graphics R-stats 
-BuildRequires:    R-devel Rmath-devel texlive-collection-latex R-graphics R-stats
+Requires:         R-core R-graphics R-stats 
+BuildRequires:    R-devel Rmath-devel texlive-collection-latex R-graphics
+BuildRequires:     R-stats
 %rename R-cran-ellipse
 
 %description
