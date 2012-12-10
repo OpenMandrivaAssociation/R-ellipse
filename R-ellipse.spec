@@ -11,9 +11,15 @@ License:          GPL (>= 2)
 URL:              http://cran.r-project.org/web/packages/%{packname}/index.html
 Source0:          http://cran.r-project.org/src/contrib/%{packname}_0.3-5.tar.gz
 BuildArch:        noarch
-Requires:         R-core R-graphics R-stats 
-BuildRequires:    R-devel Rmath-devel texlive-collection-latex R-graphics
-BuildRequires:     R-stats
+Requires:         R-core
+Requires:         R-graphics
+Requires:         R-stats 
+BuildRequires:    R-devel
+BuildRequires:    Rmath-devel
+BuildRequires:    texlive-collection-latex
+BuildRequires:    R-graphics
+BuildRequires:    R-stats
+BuildRequires:    pkgconfig(lapack)
 %rename R-cran-ellipse
 
 %description
@@ -47,3 +53,28 @@ rm -f %{buildroot}%{rlibdir}/R.css
 %{rlibdir}/%{packname}/Meta
 %{rlibdir}/%{packname}/R
 %{rlibdir}/%{packname}/help
+
+
+%changelog
+* Thu Feb 16 2012 Paulo Andrade <pcpa@mandriva.com.br> 1:0.3_5-1
++ Revision: 775045
+- Update to latest version
+- Update to latest version
+
+* Thu Feb 16 2012 Paulo Andrade <pcpa@mandriva.com.br> 1:0.3_4-1
++ Revision: 774848
+- Update and rebuild with R2spec
+- Update and rebuild with R2spec
+
+* Thu Dec 09 2010 Oden Eriksson <oeriksson@mandriva.com> 0.3.5-3mdv2011.0
++ Revision: 616448
+- the mass rebuild of 2010.0 packages
+
+* Tue Sep 08 2009 Thierry Vignaud <tv@mandriva.org> 0.3.5-2mdv2010.0
++ Revision: 433081
+- rebuild
+
+* Wed Jun 25 2008 Tomasz Pawel Gajc <tpg@mandriva.org> 0.3.5-1mdv2009.0
++ Revision: 228933
+- import R-cran-ellipse
+
