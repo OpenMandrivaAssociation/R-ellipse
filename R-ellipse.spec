@@ -4,7 +4,7 @@
 Name:             R-%{packname}
 Epoch:            1
 Version:          0.3.8
-Release:          1
+Release:          2
 Summary:          Functions for drawing ellipses and ellipse-like confidence regions
 Group:            Sciences/Mathematics
 License:          GPL (>= 2)
