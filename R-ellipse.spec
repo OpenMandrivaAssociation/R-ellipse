@@ -8,7 +8,7 @@ Release:          2
 Summary:          Functions for drawing ellipses and ellipse-like confidence regions
 Group:            Sciences/Mathematics
 License:          GPL (>= 2)
-URL:              http://cran.r-project.org/web/packages/%{packname}/index.html
+URL:              https://cran.r-project.org/web/packages/%{packname}/index.html
 Source0:          http://cran.r-project.org/src/contrib/ellipse_0.3-8.tar.gz
 BuildArch:        noarch
 Requires:         R-core
